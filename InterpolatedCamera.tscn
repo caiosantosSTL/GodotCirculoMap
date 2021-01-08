@@ -1,0 +1,10 @@
+[gd_scene format=2]
+
+[node name="InterpolatedCamera" type="InterpolatedCamera"]
+transform = Transform( -0.991979, 0, -0.126406, -0.0246649, 0.980778, 0.193559, 0.123976, 0.195125, -0.972911, -6.62712, 3.16902, -13.8807 )
+v_offset = 0.8
+current = true
+far = 73.9
+target = NodePath("../KnaboDu/alvo")
+speed = 8.0
+enabled = true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/corridax.wav-be57e805858e532dfd3ce363eda427dd.sample"
+
+[deps]
+
+source_file="res://Sons/corridax.wav"
+dest_files=[ "res://.import/corridax.wav-be57e805858e532dfd3ce363eda427dd.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

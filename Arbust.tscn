@@ -1,0 +1,611 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Gramad.tscn" type="PackedScene" id=1]
+
+[node name="Arbust" type="Position3D"]
+
+[node name="GrupArbust1" type="Position3D" parent="."]
+
+[node name="Gramad43" type="StaticBody" parent="GrupArbust1" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.6335, -0.64064, 12.7482 )
+
+[node name="Gramad42" type="StaticBody" parent="GrupArbust1" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.6335, -0.64064, 6.71341 )
+
+[node name="Gramad57" type="StaticBody" parent="GrupArbust1" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.30456, -0.64064, 16.4689 )
+
+[node name="Gramad56" type="StaticBody" parent="GrupArbust1" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.98354, -0.64064, 16.4689 )
+
+[node name="Gramad55" type="StaticBody" parent="GrupArbust1" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.98354, -0.64064, 20.8958 )
+
+[node name="Gramad54" type="StaticBody" parent="GrupArbust1" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.52163, -0.64064, 20.8958 )
+
+[node name="Gramad53" type="StaticBody" parent="GrupArbust1" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.29425, -0.64064, 18.2005 )
+
+[node name="Gramad52" type="StaticBody" parent="GrupArbust1" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.54335, -0.64064, 18.2005 )
+
+[node name="Gramad51" type="StaticBody" parent="GrupArbust1" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.54335, -0.64064, 21.038 )
+
+[node name="Gramad50" type="StaticBody" parent="GrupArbust1" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.54335, -0.64064, 15.0032 )
+
+[node name="GrupArbust2" type="Position3D" parent="."]
+
+[node name="Gramad99" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -97.2729, -0.64064, -29.2071 )
+
+[node name="Gramad98" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -97.2729, -0.64064, -24.7801 )
+
+[node name="Gramad97" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -93.8109, -0.64064, -24.7801 )
+
+[node name="Gramad96" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -94.5835, -0.64064, -27.4754 )
+
+[node name="Gramad95" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -99.8326, -0.64064, -27.4754 )
+
+[node name="Gramad94" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -99.8326, -0.64064, -24.6379 )
+
+[node name="Gramad93" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -99.8326, -0.64064, -30.6727 )
+
+[node name="Gramad106" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -108.983, -0.64064, -23.3672 )
+
+[node name="Gramad105" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -108.983, -0.64064, -18.9403 )
+
+[node name="Gramad104" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -105.521, -0.64064, -18.9403 )
+
+[node name="Gramad103" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -106.293, -0.64064, -21.6356 )
+
+[node name="Gramad102" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -111.542, -0.64064, -21.6356 )
+
+[node name="Gramad101" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -111.542, -0.64064, -18.7981 )
+
+[node name="Gramad100" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -111.542, -0.64064, -24.8329 )
+
+[node name="Gramad49" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3947, -0.64064, 8.17906 )
+
+[node name="Gramad48" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.0737, -0.64064, 8.17906 )
+
+[node name="Gramad47" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.0737, -0.64064, 12.606 )
+
+[node name="Gramad46" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.6118, -0.64064, 12.606 )
+
+[node name="Gramad45" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.3844, -0.64064, 9.91072 )
+
+[node name="Gramad44" type="StaticBody" parent="GrupArbust2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.6335, -0.64064, 9.91072 )
+
+[node name="GrupArbust3" type="Position3D" parent="."]
+
+[node name="Gramad75" type="StaticBody" parent="GrupArbust3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -122.538, -0.64064, -18.3614 )
+
+[node name="Gramad74" type="StaticBody" parent="GrupArbust3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -127.787, -0.64064, -18.3614 )
+
+[node name="Gramad73" type="StaticBody" parent="GrupArbust3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -127.787, -0.64064, -15.5239 )
+
+[node name="Gramad72" type="StaticBody" parent="GrupArbust3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -127.787, -0.64064, -21.5587 )
+
+[node name="Gramad85" type="StaticBody" parent="GrupArbust3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -125.227, -0.64064, -6.78963 )
+
+[node name="Gramad84" type="StaticBody" parent="GrupArbust3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -125.227, -0.64064, -2.36266 )
+
+[node name="Gramad83" type="StaticBody" parent="GrupArbust3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -121.765, -0.64064, -2.36266 )
+
+[node name="Gramad82" type="StaticBody" parent="GrupArbust3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -122.538, -0.64064, -5.05796 )
+
+[node name="Gramad81" type="StaticBody" parent="GrupArbust3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -127.787, -0.64064, -5.05796 )
+
+[node name="Gramad80" type="StaticBody" parent="GrupArbust3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -127.787, -0.64064, -2.22049 )
+
+[node name="Gramad79" type="StaticBody" parent="GrupArbust3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -127.787, -0.64064, -8.25528 )
+
+[node name="Gramad92" type="StaticBody" parent="GrupArbust3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -145.356, -0.64064, 10.7382 )
+
+[node name="Gramad91" type="StaticBody" parent="GrupArbust3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -145.356, -0.64064, 15.1651 )
+
+[node name="Gramad90" type="StaticBody" parent="GrupArbust3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -141.894, -0.64064, 15.1651 )
+
+[node name="Gramad89" type="StaticBody" parent="GrupArbust3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -142.667, -0.64064, 12.4698 )
+
+[node name="Gramad88" type="StaticBody" parent="GrupArbust3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -147.916, -0.64064, 12.4698 )
+
+[node name="Gramad87" type="StaticBody" parent="GrupArbust3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -147.916, -0.64064, 15.3073 )
+
+[node name="Gramad86" type="StaticBody" parent="GrupArbust3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -147.916, -0.64064, 9.27252 )
+
+[node name="GrupArbust4" type="Position3D" parent="."]
+
+[node name="Gramad113" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -46.9519, -0.64064, -16.6 )
+
+[node name="Gramad117" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -32.3681, -0.64064, 44.6162 )
+
+[node name="Gramad116" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -32.3681, -0.64064, 47.4536 )
+
+[node name="Gramad120" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -26.6715, -0.64064, 33.8527 )
+
+[node name="Gramad119" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -26.6715, -0.64064, 36.6902 )
+
+[node name="Gramad123" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.5584, -0.64064, 38.8077 )
+
+[node name="Gramad122" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.5584, -0.64064, 41.6452 )
+
+[node name="Gramad18" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.6335, -0.64064, -10.7291 )
+
+[node name="Gramad33" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3947, -0.64064, -25.9999 )
+
+[node name="Gramad32" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.0737, -0.64064, -25.9999 )
+
+[node name="Gramad31" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.0737, -0.64064, -21.5729 )
+
+[node name="Gramad30" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.6118, -0.64064, -21.5729 )
+
+[node name="Gramad29" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.3844, -0.64064, -24.2682 )
+
+[node name="Gramad28" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.6335, -0.64064, -24.2682 )
+
+[node name="Gramad27" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.6335, -0.64064, -21.4308 )
+
+[node name="Gramad26" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.6335, -0.64064, -27.4656 )
+
+[node name="Gramad41" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3947, -0.64064, 19.7671 )
+
+[node name="Gramad40" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.0737, -0.64064, 19.7671 )
+
+[node name="Gramad39" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.0737, -0.64064, 24.1941 )
+
+[node name="Gramad38" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.6118, -0.64064, 24.1941 )
+
+[node name="Gramad37" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.3844, -0.64064, 21.4988 )
+
+[node name="Gramad36" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.6335, -0.64064, 21.4988 )
+
+[node name="Gramad35" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.6335, -0.64064, 24.3362 )
+
+[node name="Gramad34" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.6335, -0.64064, 18.3015 )
+
+[node name="Gramad64" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -121.713, -0.64064, 14.4406 )
+
+[node name="Gramad63" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -121.713, -0.64064, 18.8676 )
+
+[node name="Gramad62" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -118.251, -0.64064, 18.8676 )
+
+[node name="Gramad61" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -119.024, -0.64064, 16.1723 )
+
+[node name="Gramad60" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -124.273, -0.64064, 16.1723 )
+
+[node name="Gramad59" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -124.273, -0.64064, 19.0097 )
+
+[node name="Gramad58" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -124.273, -0.64064, 12.975 )
+
+[node name="Gramad71" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -135.136, -0.64064, 3.18898 )
+
+[node name="Gramad70" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -135.136, -0.64064, 7.61595 )
+
+[node name="Gramad69" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -131.674, -0.64064, 7.61595 )
+
+[node name="Gramad68" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -132.447, -0.64064, 4.92064 )
+
+[node name="Gramad67" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -137.696, -0.64064, 4.92064 )
+
+[node name="Gramad66" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -137.696, -0.64064, 7.75811 )
+
+[node name="Gramad65" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -137.696, -0.64064, 1.72333 )
+
+[node name="Gramad78" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -125.227, -0.64064, -20.0931 )
+
+[node name="Gramad77" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -125.227, -0.64064, -15.6661 )
+
+[node name="Gramad76" type="StaticBody" parent="GrupArbust4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -121.765, -0.64064, -15.6661 )
+
+[node name="GrupArbust5" type="Position3D" parent="."]
+
+[node name="Gramad16" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.67899, -0.64064, -7.4612 )
+
+[node name="Gramad15" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.67899, -0.64064, -3.03423 )
+
+[node name="Gramad14" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.21707, -0.64064, -3.03423 )
+
+[node name="Gramad13" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.98969, -0.64064, -5.72954 )
+
+[node name="Gramad12" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.23879, -0.64064, -5.72954 )
+
+[node name="Gramad11" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.23879, -0.64064, -2.89207 )
+
+[node name="Gramad10" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.23879, -0.64064, -8.92685 )
+
+[node name="Gramad25" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3947, -0.64064, -9.26341 )
+
+[node name="Gramad24" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.0737, -0.64064, -9.26341 )
+
+[node name="Gramad23" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.0737, -0.64064, -4.83644 )
+
+[node name="Gramad109" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28.2846, -0.64064, -4.83644 )
+
+[node name="Gramad112" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -35.505, -0.64064, -11.7677 )
+
+[node name="Gramad115" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -44.3921, -0.64064, -16.7422 )
+
+[node name="Gramad118" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.8083, -0.64064, 47.3115 )
+
+[node name="Gramad121" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -24.1117, -0.64064, 36.548 )
+
+[node name="Gramad124" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -28.9986, -0.64064, 41.503 )
+
+[node name="Gramad22" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.6118, -0.64064, -4.83644 )
+
+[node name="Gramad21" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.3844, -0.64064, -7.53175 )
+
+[node name="Gramad20" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.6335, -0.64064, -7.53175 )
+
+[node name="Gramad19" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.6335, -0.64064, -4.69428 )
+
+[node name="Gramad108" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -30.8444, -0.64064, -7.53175 )
+
+[node name="Gramad107" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -30.8444, -0.64064, -4.69428 )
+
+[node name="Gramad111" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -38.0648, -0.64064, -14.463 )
+
+[node name="Gramad110" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -38.0648, -0.64064, -11.6256 )
+
+[node name="Gramad114" type="StaticBody" parent="GrupArbust5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -46.9519, -0.64064, -19.4375 )
+
+[node name="GrupArbust6" type="Position3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.095892 )
+
+[node name="Gramad" type="StaticBody" parent="GrupArbust6" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.64064, 0 )
+
+[node name="Gramad2" type="StaticBody" parent="GrupArbust6" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.64064, 7.36693 )
+
+[node name="Gramad3" type="StaticBody" parent="GrupArbust6" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.67899, -0.64064, 7.36693 )
+
+[node name="Gramad4" type="StaticBody" parent="GrupArbust6" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.67899, -0.64064, 11.7939 )
+
+[node name="Gramad5" type="StaticBody" parent="GrupArbust6" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.21707, -0.64064, 11.7939 )
+
+[node name="Gramad6" type="StaticBody" parent="GrupArbust6" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.98969, -0.64064, 9.09859 )
+
+[node name="Gramad7" type="StaticBody" parent="GrupArbust6" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.23879, -0.64064, 9.09859 )
+
+[node name="Gramad8" type="StaticBody" parent="GrupArbust6" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.23879, -0.64064, 11.9361 )
+
+[node name="Gramad9" type="StaticBody" parent="GrupArbust6" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.23879, -0.64064, 5.90128 )
+
+[node name="Gramad17" type="StaticBody" parent="GrupArbust6" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.64064, -7.4612 )
+
+[node name="GrupArbu1" type="Position3D" parent="."]
+
+[node name="Gramad" type="StaticBody" parent="GrupArbu1" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -48.5965, -0.621091, 0.706192 )
+
+[node name="Gramad3" type="StaticBody" parent="GrupArbu1" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -45.2267, -0.621091, 3.25422 )
+
+[node name="Gramad4" type="StaticBody" parent="GrupArbu1" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -45.2267, -0.621091, 5.90783 )
+
+[node name="GrupArbu2" type="Position3D" parent="."]
+transform = Transform( 0.923672, 0, -0.383183, 0, 1, 0, 0.383183, 0, 0.923672, -42.8673, 0, 19.6117 )
+
+[node name="Gramad" type="StaticBody" parent="GrupArbu2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.45539, -0.621091, -2.66253 )
+
+[node name="Gramad2" type="StaticBody" parent="GrupArbu2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.521492, -0.621091, -0.114503 )
+
+[node name="Gramad3" type="StaticBody" parent="GrupArbu2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, -0.114503 )
+
+[node name="Gramad4" type="StaticBody" parent="GrupArbu2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, 2.53911 )
+
+[node name="GrupArbu3" type="Position3D" parent="."]
+transform = Transform( 0.923672, 0, -0.383183, 0, 1, 0, 0.383183, 0, 0.923672, -42.8673, 0, 28.9306 )
+
+[node name="Gramad" type="StaticBody" parent="GrupArbu3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.45539, -0.621091, -2.66253 )
+
+[node name="Gramad2" type="StaticBody" parent="GrupArbu3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.521492, -0.621091, -0.114503 )
+
+[node name="Gramad3" type="StaticBody" parent="GrupArbu3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, -0.114503 )
+
+[node name="Gramad4" type="StaticBody" parent="GrupArbu3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, 2.53911 )
+
+[node name="GrupArbu4" type="Position3D" parent="."]
+transform = Transform( 0.575219, 0, -0.817999, 0, 1, 0, 0.817999, 0, 0.575219, -47.0129, 0, 37.1197 )
+
+[node name="Gramad" type="StaticBody" parent="GrupArbu4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.45539, -0.621091, -2.66253 )
+
+[node name="Gramad2" type="StaticBody" parent="GrupArbu4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.521492, -0.621091, -0.114503 )
+
+[node name="Gramad3" type="StaticBody" parent="GrupArbu4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, -0.114503 )
+
+[node name="Gramad4" type="StaticBody" parent="GrupArbu4" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, 2.53911 )
+
+[node name="GrupArbu5" type="Position3D" parent="."]
+transform = Transform( 0.160587, 0, -0.987022, 0, 1, 0, 0.987022, 0, 0.160587, -54.3984, 0, 43.8847 )
+
+[node name="Gramad" type="StaticBody" parent="GrupArbu5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.45539, -0.621091, -2.66253 )
+
+[node name="Gramad2" type="StaticBody" parent="GrupArbu5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.521492, -0.621091, -0.114503 )
+
+[node name="Gramad3" type="StaticBody" parent="GrupArbu5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, -0.114503 )
+
+[node name="Gramad4" type="StaticBody" parent="GrupArbu5" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, 2.53911 )
+
+[node name="GrupArbu6" type="Position3D" parent="."]
+transform = Transform( -0.519206, 0, -0.854649, 0, 1, 0, 0.854649, 0, -0.519206, -66.2888, 0, 50.2206 )
+
+[node name="Gramad" type="StaticBody" parent="GrupArbu6" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.45539, -0.621091, -2.66253 )
+
+[node name="Gramad2" type="StaticBody" parent="GrupArbu6" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.521492, -0.621091, -0.114503 )
+
+[node name="Gramad3" type="StaticBody" parent="GrupArbu6" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, -0.114503 )
+
+[node name="Gramad4" type="StaticBody" parent="GrupArbu6" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, 2.53911 )
+
+[node name="GrupArbu7" type="Position3D" parent="."]
+transform = Transform( -0.519206, 0, -0.854649, 0, 1, 0, 0.854649, 0, -0.519206, -80.2352, 0, 50.2206 )
+
+[node name="Gramad" type="StaticBody" parent="GrupArbu7" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.45539, -0.621091, -2.66253 )
+
+[node name="Gramad2" type="StaticBody" parent="GrupArbu7" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.521492, -0.621091, -0.114503 )
+
+[node name="Gramad3" type="StaticBody" parent="GrupArbu7" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, -0.114503 )
+
+[node name="Gramad4" type="StaticBody" parent="GrupArbu7" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, 2.53911 )
+
+[node name="GrupArbu8" type="Position3D" parent="."]
+transform = Transform( -0.970738, 0, -0.240143, 0, 1, 0, 0.240143, 0, -0.970738, -90.4923, 0, 46.3529 )
+
+[node name="Gramad" type="StaticBody" parent="GrupArbu8" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.45539, -0.621091, -2.66253 )
+
+[node name="Gramad2" type="StaticBody" parent="GrupArbu8" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.521492, -0.621091, -0.114503 )
+
+[node name="Gramad3" type="StaticBody" parent="GrupArbu8" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, -0.114503 )
+
+[node name="Gramad4" type="StaticBody" parent="GrupArbu8" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, 2.53911 )
+
+[node name="GrupArbu9" type="Position3D" parent="."]
+transform = Transform( -0.970738, 0, -0.240143, 0, 1, 0, 0.240143, 0, -0.970738, -97.3737, 0, 39.7276 )
+
+[node name="Gramad" type="StaticBody" parent="GrupArbu9" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.45539, -0.621091, -2.66253 )
+
+[node name="Gramad2" type="StaticBody" parent="GrupArbu9" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.521492, -0.621091, -0.114503 )
+
+[node name="Gramad3" type="StaticBody" parent="GrupArbu9" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, -0.114503 )
+
+[node name="Gramad4" type="StaticBody" parent="GrupArbu9" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, 2.53911 )
+
+[node name="GrupArbu10" type="Position3D" parent="."]
+transform = Transform( -0.970738, 0, -0.240143, 0, 1, 0, 0.240143, 0, -0.970738, -102.909, 0, 30.1635 )
+
+[node name="Gramad" type="StaticBody" parent="GrupArbu10" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.45539, -0.621091, -2.66253 )
+
+[node name="Gramad2" type="StaticBody" parent="GrupArbu10" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.521492, -0.621091, -0.114503 )
+
+[node name="Gramad3" type="StaticBody" parent="GrupArbu10" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, -0.114503 )
+
+[node name="Gramad4" type="StaticBody" parent="GrupArbu10" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, 2.53911 )
+
+[node name="GrupArbu11" type="Position3D" parent="."]
+transform = Transform( -0.816279, 0, 0.577658, 0, 1, 0, -0.577658, 0, -0.816279, -104.203, 0, 20.8074 )
+
+[node name="Gramad" type="StaticBody" parent="GrupArbu11" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.45539, -0.621091, -2.66253 )
+
+[node name="Gramad2" type="StaticBody" parent="GrupArbu11" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.521492, -0.621091, -0.114503 )
+
+[node name="Gramad3" type="StaticBody" parent="GrupArbu11" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, -0.114503 )
+
+[node name="Gramad4" type="StaticBody" parent="GrupArbu11" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, 2.53911 )
+
+[node name="GrupArbu12" type="Position3D" parent="."]
+transform = Transform( -0.605169, 0, 0.796097, 0, 1, 0, -0.796097, 0, -0.605169, -102.873, 0, 12.2616 )
+
+[node name="Gramad" type="StaticBody" parent="GrupArbu12" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.45539, -0.621091, -2.66253 )
+
+[node name="Gramad2" type="StaticBody" parent="GrupArbu12" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.521492, -0.621091, -0.114503 )
+
+[node name="Gramad3" type="StaticBody" parent="GrupArbu12" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, -0.114503 )
+
+[node name="Gramad4" type="StaticBody" parent="GrupArbu12" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, 2.53911 )
+
+[node name="GrupArbu13" type="Position3D" parent="."]
+transform = Transform( -0.138153, 0, 0.990411, 0, 1, 0, -0.990411, 0, -0.138153, -97.6938, 0, 2.42362 )
+
+[node name="Gramad" type="StaticBody" parent="GrupArbu13" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.45539, -0.621091, -2.66253 )
+
+[node name="Gramad2" type="StaticBody" parent="GrupArbu13" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.521492, -0.621091, -0.114503 )
+
+[node name="Gramad3" type="StaticBody" parent="GrupArbu13" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, -0.114503 )
+
+[node name="Gramad4" type="StaticBody" parent="GrupArbu13" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, 2.53911 )
+
+[node name="GrupArbu14" type="Position3D" parent="."]
+transform = Transform( -0.138153, 0, 0.990411, 0, 1, 0, -0.990411, 0, -0.138153, -84.1008, 0, -8.59783 )
+
+[node name="Gramad" type="StaticBody" parent="GrupArbu14" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.45539, -0.621091, -2.66253 )
+
+[node name="Gramad2" type="StaticBody" parent="GrupArbu14" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.521492, -0.621091, -0.114503 )
+
+[node name="Gramad3" type="StaticBody" parent="GrupArbu14" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, -0.114503 )
+
+[node name="Gramad4" type="StaticBody" parent="GrupArbu14" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, 2.53911 )
+
+[node name="GrupArbu15" type="Position3D" parent="."]
+transform = Transform( 0.631096, 0, 0.775705, 0, 1, 0, -0.775705, 0, 0.631096, -68.2713, 0, -10.3457 )
+
+[node name="Gramad" type="StaticBody" parent="GrupArbu15" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.45539, -0.621091, -2.66253 )
+
+[node name="Gramad2" type="StaticBody" parent="GrupArbu15" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.521492, -0.621091, -0.114503 )
+
+[node name="Gramad3" type="StaticBody" parent="GrupArbu15" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, -0.114503 )
+
+[node name="Gramad4" type="StaticBody" parent="GrupArbu15" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91447, -0.621091, 2.53911 )

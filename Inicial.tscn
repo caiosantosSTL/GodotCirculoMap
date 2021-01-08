@@ -1,0 +1,501 @@
+[gd_scene load_steps=30 format=2]
+
+[ext_resource path="res://Camposs2.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Person.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Petrus.tscn" type="PackedScene" id=3]
+[ext_resource path="res://MuretCircus.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Plato.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Circus.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Tirreis.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Sfindruss.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Arbol.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Arbust.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Arkus.tscn" type="PackedScene" id=11]
+[ext_resource path="res://Kazone.tscn" type="PackedScene" id=12]
+[ext_resource path="res://Pulapul.tscn" type="PackedScene" id=13]
+[ext_resource path="res://Inicial.gd" type="Script" id=14]
+[ext_resource path="res://coletavel.tscn" type="PackedScene" id=15]
+[ext_resource path="res://cieloModel.tscn" type="PackedScene" id=16]
+[ext_resource path="res://Torretin.tscn" type="PackedScene" id=17]
+[ext_resource path="res://Cazarote.tscn" type="PackedScene" id=18]
+[ext_resource path="res://Koretito2.tscn" type="PackedScene" id=19]
+[ext_resource path="res://GranColuna.tscn" type="PackedScene" id=20]
+[ext_resource path="res://platformo.tscn" type="PackedScene" id=21]
+
+[sub_resource type="ProceduralSky" id=1]
+sky_top_color = Color( 0.647059, 0.901961, 0.945098, 1 )
+sky_horizon_color = Color( 1, 0.909804, 0.494118, 1 )
+sky_curve = 0.186348
+sun_color = Color( 1, 0.909804, 0.494118, 1 )
+sun_latitude = 13.4
+sun_longitude = 93.6
+sun_angle_min = 4.6
+
+[sub_resource type="Environment" id=2]
+background_mode = 2
+background_sky = SubResource( 1 )
+
+[sub_resource type="Animation" id=3]
+resource_name = "Animov1"
+length = 4.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( -26.2292, 5.8756, 17.549 ), Vector3( -42.7984, 5.8756, 17.549 ) ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "Animov1"
+length = 4.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( -26.2292, 5.8756, 17.549 ), Vector3( -42.7984, 5.8756, 17.549 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "Animov2"
+length = 10.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( -52.1834, 5.43418, 12.536 ), Vector3( -52.1834, 5.43418, 30.5878 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "Animov1"
+length = 4.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( -26.2292, 5.8756, 17.549 ), Vector3( -42.7984, 5.8756, 17.549 ) ]
+}
+
+[sub_resource type="Animation" id=7]
+resource_name = "Animov2"
+length = 10.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( -52.1834, 5.43418, 12.536 ), Vector3( -52.1834, 5.43418, 30.5878 ) ]
+}
+
+[sub_resource type="Animation" id=8]
+resource_name = "Animov3"
+length = 20.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 10, 11.6 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( -87.996, 5.8756, 4.69535 ), Vector3( -87.996, 5.8756, 39.5716 ), Vector3( -87.996, 5.8756, 40.7607 ) ]
+}
+
+[node name="Spatial" type="Spatial"]
+script = ExtResource( 14 )
+
+[node name="Camposs2" parent="." instance=ExtResource( 1 )]
+
+[node name="Suno" type="DirectionalLight" parent="."]
+transform = Transform( 0.332153, 0.0447385, 0.942164, -0.905779, 0.293787, 0.305375, -0.263134, -0.954823, 0.138106, 0, 24.5575, 0 )
+light_color = Color( 1, 0.701961, 0, 1 )
+light_energy = 4.5
+shadow_enabled = true
+
+[node name="MuretCircus" parent="." instance=ExtResource( 4 )]
+transform = Transform( 1.01755, 0, 0, 0, 1.01755, 0, 0, 0, 1.01755, -69.51, -4.86597, 10.8793 )
+
+[node name="Plato" parent="." instance=ExtResource( 5 )]
+transform = Transform( 2.10853, 0, 0, 0, 2.10853, 0, 0, 0, 2.10853, -77.2556, -0.660008, 15.6344 )
+
+[node name="Circus" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1.64066, 0, 0, 0, 1.64066, 0, 0, 0, 1.64066, -73.3101, -0.795476, 21.9229 )
+
+[node name="Circus2" parent="." instance=ExtResource( 6 )]
+transform = Transform( 2.50731, 0, 0, 0, 2.50731, 0, 0, 0, 2.50731, -73.3101, -1.20136, 21.9229 )
+
+[node name="Petras" type="Position3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -75.8132, 0, 22.0651 )
+
+[node name="Petrus" parent="Petras" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 0.965158, -0.261667, 0, 0.261667, 0.965158, 0, 1.17279, -75.3392 )
+
+[node name="Petrus11" parent="Petras" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 0.90551, -0.424326, 0, 0.424326, 0.90551, 22.9658, 3.1617, -82.8593 )
+
+[node name="Petrus2" parent="Petras" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 0.969599, -0.244698, 0, 0.244698, 0.969599, -20.3933, 1.52895, -69.5852 )
+
+[node name="Petrus3" parent="Petras" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -63.6383, -2.2474, -30.6335 )
+
+[node name="Petrus4" parent="Petras" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -63.6383, -2.2474, 35.7372 )
+
+[node name="Petrus5" parent="Petras" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -36.4877, -0.0219707, 53.4943 )
+
+[node name="Petrus6" parent="Petras" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 33.6761, 2.56469, 53.4943 )
+
+[node name="Petrus8" parent="Petras" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 75.1745, -1.62727, 1.5058 )
+
+[node name="Petrus9" parent="Petras" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 75.1745, -1.62727, -60.1813 )
+
+[node name="Petrus10" parent="Petras" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 50.8862, -1.62727, -62.3048 )
+
+[node name="Petrus7" parent="Petras" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.1622, 5.55196, 63.0416 )
+
+[node name="Torresss" type="Position3D" parent="."]
+
+[node name="Tirreis" parent="Torresss" instance=ExtResource( 7 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -84.132, 0, -1.498 )
+
+[node name="Tirreis2" parent="Torresss" instance=ExtResource( 7 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -84.132, 0, 42.9899 )
+
+[node name="Tirreis3" parent="Torresss" instance=ExtResource( 7 )]
+transform = Transform( 0.494685, 0, 0.869072, 0, 1, 0, -0.869072, 0, 0.494685, -109.514, 0, 24.0092 )
+
+[node name="Tirreis4" parent="Torresss" instance=ExtResource( 7 )]
+transform = Transform( 0.494685, 0, 0.869072, 0, 1, 0, -0.869072, 0, 0.494685, -35.8184, 0, 24.0092 )
+
+[node name="Tirreis5" parent="Torresss" instance=ExtResource( 7 )]
+transform = Transform( 0.494685, 0, 0.869072, 0, 1, 0, -0.869072, 0, 0.494685, -53.8832, 0, 5.25451 )
+
+[node name="Tirreis6" parent="Torresss" instance=ExtResource( 7 )]
+transform = Transform( 0.494685, 0, 0.869072, 0, 1, 0, -0.869072, 0, 0.494685, -53.8832, 0, 36.1548 )
+
+[node name="Tirreis7" parent="Torresss" instance=ExtResource( 7 )]
+transform = Transform( -0.827424, 0, 0.561578, 0, 1, 0, -0.561578, 0, -0.827424, -70.9709, 0, -17.255 )
+
+[node name="Tirreis8" parent="Torresss" instance=ExtResource( 7 )]
+transform = Transform( 0.494685, 0, 0.869072, 0, 1, 0, -0.869072, 0, 0.494685, -75.4697, 0, 56.7365 )
+
+[node name="Sfindruss" parent="." instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -74.0141, -0.139958, 19.1377 )
+
+[node name="Arboros" type="Position3D" parent="."]
+
+[node name="Arbol" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.8093, 0.318217, -17.5755 )
+
+[node name="Arbol2" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -41.5051, 0.318217, -27.1034 )
+
+[node name="Arbol3" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -33.865, 0.318217, -27.1034 )
+
+[node name="Arbol4" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -49.9772, 0.318217, -37.5201 )
+
+[node name="Arbol5" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -36.1381, 0.318217, -37.5201 )
+
+[node name="Arbol6" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.6997, 0.318217, -25.5387 )
+
+[node name="Arbol7" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.8986, 0.318217, -17.5759 )
+
+[node name="Arbol19" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.8986, 0.318217, 1.29838 )
+
+[node name="Arbol20" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.9053, 0.318217, -11.0004 )
+
+[node name="Arbol8" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.8986, 0.318217, 30.995 )
+
+[node name="Arbol9" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.8986, 0.318217, 42.73 )
+
+[node name="Arbol10" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.4217, 0.318217, 42.73 )
+
+[node name="Arbol11" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.4217, 0.318217, 68.1876 )
+
+[node name="Arbol12" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.4395, 0.318217, 68.1876 )
+
+[node name="Arbol13" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -30.3899, 0.318217, 61.556 )
+
+[node name="Arbol14" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -142.764, 0.318217, 34.2925 )
+
+[node name="Arbol15" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -142.764, 0.318217, 22.2607 )
+
+[node name="Arbol16" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -134.134, 0.318217, 22.2607 )
+
+[node name="Arbol17" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -134.134, 0.318217, 38.9231 )
+
+[node name="Arbol21" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -124.805, 0.318217, 48.2837 )
+
+[node name="Arbol22" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -137.937, 0.318217, 48.2837 )
+
+[node name="Arbol18" parent="Arboros" instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -122.613, 0.318217, 38.9231 )
+
+[node name="Cielo" type="WorldEnvironment" parent="."]
+environment = SubResource( 2 )
+
+[node name="Arbust" parent="." instance=ExtResource( 10 )]
+
+[node name="Arkus" type="Position3D" parent="."]
+
+[node name="Arkus" parent="Arkus" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -73.5489, 0, -4.43262 )
+
+[node name="Arkus2" parent="Arkus" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -73.5489, 0, 45.077 )
+
+[node name="Arkus3" parent="Arkus" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -48.3761, 0, 17.6395 )
+
+[node name="Arkus4" parent="Arkus" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -97.5881, 0, 22.2787 )
+
+[node name="Arkus5" parent="Arkus" instance=ExtResource( 11 )]
+transform = Transform( 0.999964, 0, 0.0085171, 0, 1, 0, -0.0085171, 0, 0.999964, -97.5881, 0, -8.86271 )
+
+[node name="Arkus6" parent="Arkus" instance=ExtResource( 11 )]
+transform = Transform( 0.999964, 0, 0.0085171, 0, 1, 0, -0.0085171, 0, 0.999964, -97.5881, 0, 48.9503 )
+
+[node name="Arkus7" parent="Arkus" instance=ExtResource( 11 )]
+transform = Transform( 0.9841, 0, -0.177617, 0, 1, 0, 0.177617, 0, 0.9841, -49.5031, 0, 48.9503 )
+
+[node name="Arkus8" parent="Arkus" instance=ExtResource( 11 )]
+transform = Transform( 0.891766, 0, -0.452497, 0, 1, 0, 0.452497, 0, 0.891766, -49.5031, 0, -10.0244 )
+
+[node name="Person" parent="." instance=ExtResource( 2 )]
+transform = Transform( 0.208108, 0, 0, 0, 0.248463, 0, 0, 0, 0.194994, 0, 0.277645, 2.51125 )
+
+[node name="Mirax" type="Spatial" parent="Person"]
+transform = Transform( -1, 0, 3.25841e-07, 0, 1, 0, -3.25841e-07, 0, -1, 0, 2.63908, -15.2071 )
+
+[node name="InterpolatedCamera" type="InterpolatedCamera" parent="."]
+transform = Transform( -1, 0, 3.25841e-07, 0, 1, 0, -3.25841e-07, 0, -1, 0, 2.08844, -8.56408 )
+v_offset = 0.8
+current = true
+far = 681.5
+target = NodePath("../Person/Mirax")
+speed = 8.0
+enabled = true
+
+[node name="Domo" type="Position3D" parent="."]
+
+[node name="Kazone3" parent="Domo" instance=ExtResource( 12 )]
+transform = Transform( 3.99253, 0, 1.33976, 0, 4.21132, 0, -1.33976, 0, 3.99253, -50.264, 9.67845, -20.6489 )
+
+[node name="Kazone4" parent="Domo" instance=ExtResource( 12 )]
+transform = Transform( 2.12651, 0, 3.635, 0, 4.21132, 0, -3.635, 0, 2.12651, -57.7451, 9.67845, 65.1465 )
+
+[node name="Kazone5" parent="Domo" instance=ExtResource( 12 )]
+transform = Transform( -0.128752, 0, 4.20936, 0, 4.21132, 0, -4.20936, 0, -0.128752, -33.6497, 9.67845, 45.6792 )
+
+[node name="Kazone6" parent="Domo" instance=ExtResource( 12 )]
+transform = Transform( -2.36876, 0, 3.48199, 0, 4.21132, 0, -3.48199, 0, -2.36876, -122.128, 9.67845, 16.122 )
+
+[node name="PulaArea" type="Position3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -26.2116, 0, -8.29016 )
+
+[node name="Pulapul" parent="PulaArea" instance=ExtResource( 13 )]
+
+[node name="Pulapul2" parent="PulaArea" instance=ExtResource( 13 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -32.1975, 0, 1.97086 )
+
+[node name="Pulapul3" parent="PulaArea" instance=ExtResource( 13 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -89.5054, 0, 8.05548 )
+
+[node name="Pulapul6" parent="PulaArea" instance=ExtResource( 13 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -43.6554, 0, 8.61895 )
+
+[node name="Pulapul4" parent="PulaArea" instance=ExtResource( 13 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -40.3731, 0, 59.4367 )
+
+[node name="Pulapul5" parent="PulaArea" instance=ExtResource( 13 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.992, 0, 41.5581 )
+
+[node name="Colect" type="Position3D" parent="."]
+
+[node name="coletavel" parent="Colect" instance=ExtResource( 15 )]
+transform = Transform( 0.499742, -0.00971029, 0.00817155, 0.00872298, 0.566184, -0.0081728, -0.00857075, 0.0100538, 0.468148, 0, 0.654528, 5.88782 )
+
+[node name="coletavel2" parent="Colect" instance=ExtResource( 15 )]
+transform = Transform( 0.499742, -0.00971029, 0.00817155, 0.00872298, 0.566184, -0.0081728, -0.00857075, 0.0100538, 0.468148, -21.1143, 0.654528, 5.88782 )
+
+[node name="coletavel3" parent="Colect" instance=ExtResource( 15 )]
+transform = Transform( 0.499742, -0.00971029, 0.00817155, 0.00872298, 0.566184, -0.0081728, -0.00857075, 0.0100538, 0.468148, -21.1143, 0.654528, -16.1249 )
+
+[node name="coletavel4" parent="Colect" instance=ExtResource( 15 )]
+transform = Transform( 0.499742, -0.00971029, 0.00817155, 0.00872298, 0.566184, -0.0081728, -0.00857075, 0.0100538, 0.468148, -29.2487, 10.2858, 3.08585 )
+
+[node name="coletavel5" parent="Colect" instance=ExtResource( 15 )]
+transform = Transform( 0.499742, -0.00971029, 0.00817155, 0.00872298, 0.566184, -0.0081728, -0.00857075, 0.0100538, 0.468148, -93.467, 10.2858, -21.1768 )
+
+[node name="coletavel6" parent="Colect" instance=ExtResource( 15 )]
+transform = Transform( 0.499742, -0.00971029, 0.00817155, 0.00872298, 0.566184, -0.0081728, -0.00857075, 0.0100538, 0.468148, -73.7802, 7.19228, -16.8642 )
+
+[node name="coletavel7" parent="Colect" instance=ExtResource( 15 )]
+transform = Transform( 0.499742, -0.00971029, 0.00817155, 0.00872298, 0.566184, -0.0081728, -0.00857075, 0.0100538, 0.468148, -73.7802, 0.663649, 8.19486 )
+
+[node name="coletavel8" parent="Colect" instance=ExtResource( 15 )]
+transform = Transform( 0.499742, -0.00971029, 0.00817155, 0.00872298, 0.566184, -0.0081728, -0.00857075, 0.0100538, 0.468148, -73.7802, 0.663649, 33.0417 )
+
+[node name="coletavel9" parent="Colect" instance=ExtResource( 15 )]
+transform = Transform( 0.499742, -0.00971029, 0.00817155, 0.00872298, 0.566184, -0.0081728, -0.00857075, 0.0100538, 0.468148, -84.6977, 0.663649, 20.3168 )
+
+[node name="coletavel10" parent="Colect" instance=ExtResource( 15 )]
+transform = Transform( 0.499742, -0.00971029, 0.00817155, 0.00872298, 0.566184, -0.0081728, -0.00857075, 0.0100538, 0.468148, -84.6977, 11.5458, 67.7866 )
+
+[node name="coletavel11" parent="Colect" instance=ExtResource( 15 )]
+transform = Transform( 0.499742, -0.00971029, 0.00817155, 0.00872298, 0.566184, -0.0081728, -0.00857075, 0.0100538, 0.468148, -70.7397, 11.5458, 67.7866 )
+
+[node name="coletavel12" parent="Colect" instance=ExtResource( 15 )]
+transform = Transform( 0.499742, -0.00971029, 0.00817155, 0.00872298, 0.566184, -0.0081728, -0.00857075, 0.0100538, 0.468148, -57.5121, 10.281, 65.854 )
+
+[node name="coletavel13" parent="Colect" instance=ExtResource( 15 )]
+transform = Transform( 0.499742, -0.00971029, 0.00817155, 0.00872298, 0.566184, -0.0081728, -0.00857075, 0.0100538, 0.468148, -30.1167, 10.281, 37.5104 )
+
+[node name="Skys" type="Position3D" parent="."]
+
+[node name="cieloModel" parent="Skys" instance=ExtResource( 16 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -41.0813, 0 )
+
+[node name="cieloModel2" parent="Skys" instance=ExtResource( 16 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 175.512, 0 )
+
+[node name="Torretins" type="Position3D" parent="."]
+
+[node name="Torretin" parent="Torretins" instance=ExtResource( 17 )]
+transform = Transform( 1.90746, 0, 0, 0, 1.90746, 0, 0, 0, 1.90746, -156.617, 0.877131, 28.0337 )
+
+[node name="Torretin2" parent="Torretins" instance=ExtResource( 17 )]
+transform = Transform( 0.567865, 0, 1.9687, 0, 2.04897, 0, -1.9687, 0, 0.567865, 24.9103, 1.04393, -28.6288 )
+
+[node name="Torretin3" parent="Torretins" instance=ExtResource( 17 )]
+transform = Transform( 1.01151, 0, 1.78188, 0, 2.04897, 0, -1.78188, 0, 1.01151, -15.6294, 24.4911, -80.4864 )
+
+[node name="Torretin4" parent="Torretins" instance=ExtResource( 17 )]
+transform = Transform( 1.01151, 0, 1.78188, 0, 2.04897, 0, -1.78188, 0, 1.01151, -202.231, 24.4911, 36.0827 )
+
+[node name="Cazarote" parent="Torretins" instance=ExtResource( 18 )]
+transform = Transform( 0.798477, 0, -1.15672, 0, 1.40555, 0, 1.15672, 0, 0.798477, 28.52, 6.94965, -139.033 )
+
+[node name="Koretito2" parent="Torretins" instance=ExtResource( 19 )]
+transform = Transform( 1.96262, 0, 0, 0, 1.96262, 0, 0, 0, 1.96262, -9.49731, 0, -13.5377 )
+
+[node name="Koretito4" parent="Torretins" instance=ExtResource( 19 )]
+transform = Transform( 1.37245, 0, 0, 0, 1.37245, 0, 0, 0, 1.37245, -99.4136, 9.54819, -19.7196 )
+
+[node name="GranColuna" parent="Torretins" instance=ExtResource( 20 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -99.7849, -0.521691, 36.4095 )
+
+[node name="GranColuna2" parent="Torretins" instance=ExtResource( 20 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -97.3243, -0.521691, 1.07019 )
+
+[node name="GranColuna3" parent="Torretins" instance=ExtResource( 20 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -67.3042, -0.521691, -35.5495 )
+
+[node name="Platforms" type="Position3D" parent="."]
+
+[node name="platformo" parent="Platforms" instance=ExtResource( 21 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -26.2292, 5.8756, 17.549 )
+
+[node name="AnimationPlayer" parent="Platforms/platformo" index="1"]
+autoplay = "Animov1"
+anims/Animov1 = SubResource( 3 )
+
+[node name="platformo2" parent="Platforms" instance=ExtResource( 21 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -52.1834, 5.43418, 12.536 )
+
+[node name="AnimationPlayer" parent="Platforms/platformo2" index="1"]
+autoplay = "Animov2"
+anims/Animov1 = SubResource( 4 )
+anims/Animov2 = SubResource( 5 )
+
+[node name="platformo3" parent="Platforms" instance=ExtResource( 21 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -87.996, 5.8756, 7.3191 )
+
+[node name="AnimationPlayer" parent="Platforms/platformo3" index="1"]
+autoplay = "Animov3"
+anims/Animov1 = SubResource( 6 )
+anims/Animov2 = SubResource( 7 )
+anims/Animov3 = SubResource( 8 )
+[connection signal="body_entered" from="PulaArea/Pulapul" to="." method="_on_Pulapul_body_entered"]
+[connection signal="body_exited" from="PulaArea/Pulapul" to="." method="_on_Pulapul_body_exited"]
+[connection signal="body_entered" from="PulaArea/Pulapul2" to="." method="_on_Pulapul_body_entered"]
+[connection signal="body_exited" from="PulaArea/Pulapul2" to="." method="_on_Pulapul_body_exited"]
+[connection signal="body_entered" from="PulaArea/Pulapul3" to="." method="_on_Pulapul_body_entered"]
+[connection signal="body_exited" from="PulaArea/Pulapul3" to="." method="_on_Pulapul_body_exited"]
+[connection signal="body_entered" from="PulaArea/Pulapul6" to="." method="_on_Pulapul_body_entered"]
+[connection signal="body_exited" from="PulaArea/Pulapul6" to="." method="_on_Pulapul_body_exited"]
+[connection signal="body_entered" from="PulaArea/Pulapul4" to="." method="_on_Pulapul_body_entered"]
+[connection signal="body_exited" from="PulaArea/Pulapul4" to="." method="_on_Pulapul_body_exited"]
+[connection signal="body_entered" from="PulaArea/Pulapul5" to="." method="_on_Pulapul_body_entered"]
+[connection signal="body_exited" from="PulaArea/Pulapul5" to="." method="_on_Pulapul_body_exited"]
+
+[editable path="Person"]
+
+[editable path="Platforms/platformo"]
+
+[editable path="Platforms/platformo2"]
+
+[editable path="Platforms/platformo3"]

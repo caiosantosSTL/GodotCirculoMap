@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=2]
+
+[sub_resource type="ParticlesMaterial" id=1]
+emission_shape = 2
+emission_box_extents = Vector3( 1, 1, 1 )
+gravity = Vector3( 0, 0, 0 )
+linear_accel = 3.87
+radial_accel = 11.61
+radial_accel_random = 0.05
+scale_random = 0.53
+
+[sub_resource type="SpatialMaterial" id=2]
+albedo_color = Color( 0.945098, 0.764706, 0.152941, 1 )
+
+[sub_resource type="CubeMesh" id=3]
+material = SubResource( 2 )
+size = Vector3( 0.1, 0.125, 0.097 )
+
+[node name="Partik3d" type="Particles"]
+pause_mode = 2
+emitting = false
+amount = 40
+lifetime = 2.0
+one_shot = true
+explosiveness = 0.16
+randomness = 0.23
+process_material = SubResource( 1 )
+draw_pass_1 = SubResource( 3 )
